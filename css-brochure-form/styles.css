@@ -1,0 +1,54 @@
+fieldset {
+  border: none;
+  width: 100px;
+  font-family: 'Brandon Grotesque', sans-serif;
+}
+
+legend {
+  color: #ff4e33;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+input {
+  height: 35px;
+  width: 379px;
+  border-color: lightgray;
+  border-radius: 5px;
+  border-width: thin;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-family: 'AtlasGrskote', sans-serif;
+  cursor: pointer;
+}
+
+label {
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  margin: 8px;
+}
+
+select {
+  height: 35px;
+  width: 379px;
+  background-color: #f4f5f6;
+  border-radius: 5px;
+  border-color: lightgray;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #ff4e33;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 20px;
+  margin-left: 300px;
+  font-family: 'Brandon Grotesque', sans-serif;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
