@@ -1,0 +1,45 @@
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 35%;
+}
+
+.column-other-three {
+  width: 30%;
+}
+
+.column-two {
+  width: 25%;
+}
+
+.column-three {
+  width: 35%;
+}
+
+.column-other {
+  width: 61%;
+}
+
+.column-four {
+  width: 35%;
+}
+
+.column-other-two {
+  width: 60%;
+}
