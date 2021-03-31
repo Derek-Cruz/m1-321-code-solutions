@@ -22,18 +22,22 @@ div > img {
   width: 100%;
   display: flex;
   position: relative;
+  margin: 55px auto;
 }
 
 h1 {
   position: absolute;
-  top: 145px;
-  left: 160px;
+  top: 142px;
+  left: 90px;
+  font-size: 2.3rem;
 }
 
 p {
   position: absolute;
-  top: 240px;
-  left: 160px;
+  top: 264px;
+  left: 90px;
+  width: 520px;
+  line-height: 24px;
 }
 
 ul {
@@ -96,6 +100,19 @@ li {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 6px 10px;
+  padding: 10px 15px;
   cursor: pointer;
+}
+
+.button-2 {
+  background-color: #163f64;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 58px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: absolute;
+  left: 90px;
+  top: 485px;
 }
