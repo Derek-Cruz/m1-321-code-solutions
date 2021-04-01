@@ -23,6 +23,7 @@ div > img {
   display: flex;
   position: relative;
   margin: 55px auto;
+  filter: brightness(0.7) opacity(0.8);
 }
 
 h1 {
