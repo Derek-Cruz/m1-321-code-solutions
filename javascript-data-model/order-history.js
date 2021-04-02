@@ -48,11 +48,13 @@ var orderHistory = [
     items: [{
       type: 'Controller',
       title: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
-      price: '$94.95',
-      typeTwo: 'Book',
-      titleTwo: 'The Art of Sql',
+      price: '$94.95'
+    },
+    {
+      type: 'Book',
+      title: 'The Art of Sql',
       author: 'Faroult, Stephane',
-      priceTwo: '$33.99'
+      price: '$33.99'
     }]
   }
 ];
