@@ -20,7 +20,7 @@ function isEven(number) {
 }
 
 function startsWithJ(string) {
-  if (string[0] === string[0].toUpperCase()) {
+  if (string[0] === 'J') {
     return true;
   }
 }
@@ -32,25 +32,37 @@ function isOldEnoughToDrink(person) {
 }
 
 function isOldEnoughToDrive(person) {
-  if (person.age >= 21) {
+  if (person.age >= 16) {
     return true;
   }
 }
 
 function isOldEnoughToDrinkAndDrive(person) {
   if (person.age >= 21) {
-    return !true;
+    return false;
   }
 }
 
 function categorizeAcidity(pH) {
   if (pH === 7) {
     return 'Neutral';
+  } else if (pH >= 0 && pH <= 7) {
+    return 'acid';
+  } else if (pH >= 7 && pH <= 14) {
+    return 'base';
+  } else {
+    return 'invalid pH level';
   }
 }
 
 function introduceWarnerBro(name) {
-  if (name === 'Yakko') {
+  if (name === 'yakko') {
     return 'We\'re the warner brothers' + '!';
+  } else if (name === 'wakko') {
+    return 'We\'re the warner brothers' + '!';
+  } else if (name === 'dot') {
+    return 'I\'m cute~';
+  } else {
+    return 'Goodnight everybody' + '!';
   }
 }
